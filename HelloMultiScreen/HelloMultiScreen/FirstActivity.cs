@@ -12,7 +12,7 @@ namespace HelloMultiScreen
         {
             Intent second;
             base.OnCreate(bundle);
-            //Use UI created in Main.axml
+            
             SetContentView(Resource.Layout.Main);
             var pokeSecond = FindViewById<Button>(Resource.Id.pokeSecond);
             pokeSecond.Click += (sender, e) => {
